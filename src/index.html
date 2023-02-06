@@ -3,74 +3,83 @@
   <head>
     <meta charset="utf-8">
     <title> Data Lovers - LoL </title>
+    <link rel="icon" type="image/png" href="https://img.ibxk.com.br/2019/07/26/26171514413327.jpg"/>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    
-    <header class="header" id="header">
+    <div class="principal">
+      <!--Cabeçalho com menu-->
+      <header class="cabecalho">
+        <div class="logo-header">
+          <img src="logo.png" alt="logo-lol" id="img-logo-lol">
+        </div>
+        <h2 id="txt-escolha-campeao">Escolha seu campeão</h2>
+        <nav>
+          <input type="text" id="txt-pesquisa" placeholder="Pesquisar por nome">
+          <a target="_blank" class="jogue-agora" href="https://www.leagueoflegends.com/pt-br/">Jogue agora!</a>
+        </nav>
+      </header>
+
+      <!--Menu lateral-->
+      <aside class="barra-lateral">
+        <a class="botoes" id="botao-sobre" href="">Sobre</a>
+        <hr class="espaco">
+        <p id="txt-buscar">Buscar por:</p>
+
+        <div>
+          <select class="lista-seletores">
+            <option disabled selected hidden> Função </option>
+            <option> Assassinos </option>
+            <option> Atiradores </option>
+            <option> Lutadores </option>
+            <option> Magos </option>
+            <option> Suportes </option>
+            <option> Tanques </option>
+          </select>
+        </div>
       
-      <!-- <nav class="container">
-        <figure>
-          <img src="https://logodownload.org/wp-content/uploads/2014/09/lol-logo-league-of-legends-2.png" alt="imagem logo lol" class="imagem-lol">
-        </figure>
-        <h1 id="escolha-seu-campeao">Escolha o seu campeão</h1>
-        <form class="estilo-header" id="pesquisa">
-          <input type="text" id="txt-pesquisa" placeholder="Pesquisar por nome..."/>
-        </form>
-        <button class="estilo-header">Jogue Agora</button>
-      </nav> -->
+        <div>
+          <select class="lista-seletores">
+            <option disabled selected hidden> Dificuldade </option>
+            <option> Baixa </option>
+            <option> Moderada </option>
+            <option> Alta </option>
+          </select>
+          <hr>
+        </div>
+
+        <div>
+          <select class="lista-seletores" id="ordenar">
+            <option disabled selected hidden> Ordenar por </option>
+            <option> A-Z </option>
+            <option> Z-A </option>
+          </select>
+        </div>
+
+        <a class="botoes" id="botao-todos" href="">Mostrar todos</a>
+
+      </aside>
+
+      <main class="conteudo-cards">
+
+      </main>
     
-      <div class="logo-header">
-        <img src="logo.png" alt="logo-lol" id="img-logo-lol">
-      </div>
-      <div class="navigation-header"> 
-          <h3 id="txt-escolha-campeao"> Escolha o seu campeão </h3>
-          <input type="text" id="txt-pesquisa" placeholder="Pesquisar por nome"/> 
-          <a href="#" class="jogue-agora"> Jogue agora! </a>
-      </div>
-    
+      <!--Rodapé-->
+      <footer class="rodape">
+        <div class="contato">
+          <div class="contato-aluna">
+            <p class="nome-aluna">Ana Leticia B. Prince </p>
+            <a href="https://github.com/analeticiabacha" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/analeticiabacha/" target="_blank">LinkedIn</a>
+          </div>
+          <div class="contato-aluna">
+            <p class="nome-aluna">Ana Paula Januário</p>
+            <a href="https://github.com/paulajanu" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/ana-paula-413517259/" target="_blank">LinkedIn</a>
+          </div> 
+        </div>
+      </footer>
+    </div>
 
-
-    </header>
-
-    <!-- <button> Sobre </button>
-    <hr id="barra"> -->
-    <aside>
-      <select class="lista-seletores">
-        <option disabled selected hidden> Função </option>
-        <option> Assassinos </option>
-        <option> Atiradores </option>
-        <option> Lutadores </option>
-        <option> Magos </option>
-        <option> Suportes </option>
-        <option> Tanques </option>
-      </select><br>
-
-      <select class="lista-seletores">
-        <option> Dificuldade </option>
-        <option> Baixa </option>
-        <option> Moderada </option>
-        <option> Alta </option>
-      </select><br>
-
-      <select class="lista-seletores">
-        <option> Ordenar por </option>
-        <option> A-Z </option>
-        <option> Z-A </option>
-      </select>
-    </aside>
-    
-    <main>
-      <!-- aqui dentro fica section, div e article -->
-    </main>
-    
-    <footer id="footer">
-      <h4> Ana Leticia e Ana Paula </h4>
-      <h4> Turma 9 - Laboratoria </h4>
-    </footer>
-
-    <div id="root"></div>
     <script src="main.js" type="module"></script>
   </body>
 </html>
