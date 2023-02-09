@@ -8,13 +8,13 @@ for (let character in data.data){
   lol.push(data.data[character]);
 }
 const root = document.getElementById("info-cards");
-
+//testeeeee
 function infosDosCardsTela (data) {
   root.innerHTML = data.map((character) => `
     <div class="cards">
       <div class="flip-container"> 
         <div class="flipper">
-
+          
           <div class="front-cards-infos">
             <img alt="fotos-campeões" class="card-img" src="${character.splash}">
             <div id="front-cards-txt">

@@ -88,14 +88,16 @@ li {
   padding: 15px 0;
 }
 
+/*testeeeee */
+
 .botoes {
-  background-color: #150932;
+  background-color: #160a34;
   opacity: 80%;
   border-radius: 100px; 
-  border: 2px solid #150932;
+  border: 2px solid #180a39;
   padding: 10px 15px;
   margin-left: 80px;
-  color: #fff;
+  color: #ede4e4;
   text-decoration: none;
   font-size: 14px;
   font-family: 'Unbounded', cursive;
@@ -120,7 +122,7 @@ li {
   opacity: 80%;
   background: #150932;
   border-radius: 100px;
-  border: 2px solid #150932;
+  border: 2px solid #150931;
   padding: 10px 15px;
   margin-left: 80px;
   color:#fff;
@@ -144,7 +146,7 @@ li {
   color: #fff;
   text-align: center;
   font-family: 'Unbounded', cursive;
-  background-color: #391765;
+  background-color: #371662;
   padding-bottom: 10px;
 }
 
