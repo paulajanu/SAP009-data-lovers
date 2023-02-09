@@ -7,178 +7,310 @@
   box-sizing: border-box;
 }
 
-
-.principal {
-  display: grid;
-  grid-template-areas:
-    "header header"
-    "aside main"
-    "footer footer";
-  grid-gap: 5px;
-  grid-template-columns: 20% 80%;
-  grid-template-rows: 100px 560px 50px;
+html{
+  background-image: url(https://i.pinimg.com/originals/6c/18/cf/6c18cfea1f788b7ffa8b56f6b5cfba97.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.cabecalho {
-  grid-area: header;
+/* tirando os pontinho da lista*/
+li {
+  list-style-type: none;
 }
 
-.barra-lateral {
-  grid-area: aside;
-  margin: 50px 35px 35px 35px;
-}
-
-.conteudo-cards {
-  grid-area: main;
-}
-
-.rodape {
-  grid-area: footer;
-}
-
+/*Cabeçalho*/
 .cabecalho {
   background-color: #28184d;
   opacity: 80%;
-  padding: 0px 10px;
+  align-items: center;
   margin-top: 20px;
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-between;
 }
 
-#img-logo-lol{
+.logo-header {
+  margin-left: 90px;
+}
+
+#img-logo-lol {
   width: 150px;
-  margin-left: 80px;
 }
 
 #txt-escolha-campeao {
   color: #fff;
-  text-align: center;
-  padding: 15px 5px;
   font-size: 30px;
   font-family: 'Orbitron', sans-serif;
 }
 
-.jogue-agora {
-  width: 60%;
-  padding: 10px 15px;
-  background-color: #150932;
-  border-radius: 100px; 
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
-  margin-right: 100px;
-  margin-left: 40px;
-  font-family: 'Unbounded', cursive;
+.navegadores {
+  margin-right: 70px;
 }
 
 #txt-pesquisa {
   background-color: #150932;
   width: 200px;
   height: 35px;
-  border-radius: 100px;
-  border: 8px solid #150932;
+  margin-right: 30px;
+  border-radius: 20px;
+  border: 10px solid #150932;
   padding: 10px;
   color: #fff;
   font-family: 'Unbounded', cursive;
 }
 
-.botoes {
+#jogue-agora {
   background-color: #150932;
-  border-radius: 100px; 
-  border: 2px solid #150932;
-  padding: 10px 15px;
-  margin-left: 40px;
+  padding: 0 10px;
+  border: 10px solid #150932;
+  border-radius: 20px;
   color: #fff;
-  text-align: center;
   text-decoration: none;
-  opacity: 75%;
   font-family: 'Unbounded', cursive;
 }
 
-#botao-sobre {
-  margin-left: 65px;
+
+/*Menu lateral*/
+.conteudo-lateral {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  
 }
 
-.espaco {
-  margin-top: 30px;
+.barra-lateral {
+  width: 20%;
+  padding: 10px;
+  
 }
 
-#botao-todos {
+.opcoes-barra-lateral {
+  padding: 15px 0;
+}
+
+.botoes {
+  background-color: #150932;
+  opacity: 80%;
+  border-radius: 100px; 
+  border: 2px solid #150932;
+  padding: 10px 15px;
+  margin-left: 80px;
+  color: #fff;
+  text-decoration: none;
   font-size: 14px;
+  font-family: 'Unbounded', cursive;
+}
+
+
+#botao-sobre {
+  margin-left: 110px;
+}
+
+.separador {
+  margin: 10px 40px 0 40px;
 }
 
 #txt-buscar {
-  margin-top: 20px;
-  margin-bottom: 15px;
   color: #fff;
   text-align: center;
   font-family: 'Unbounded', cursive;
 }
 
 .lista-seletores{
-  opacity: 75%;
-  background:#150932;
+  opacity: 80%;
+  background: #150932;
   border-radius: 100px;
   border: 2px solid #150932;
   padding: 10px 15px;
-  margin-bottom: 20px;
-  margin-left: 40px;
+  margin-left: 80px;
   color:#fff;
   text-align: center;
   font-family: 'Unbounded', cursive;
 }
 
 #ordenar {
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
-.btn-icon-header{
-    display: none; /* acrescentamos os icones X e ||| e tiramos a visu para apenas aparecer em modo celular/tela pequena */
-    background-color: transparent;
-    border: none;
-    color: white;
-    cursor: pointer;
-} /* @media no final do codigo*/
-
-
-html{
-    background-image: url(https://i.pinimg.com/originals/6c/18/cf/6c18cfea1f788b7ffa8b56f6b5cfba97.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* display: table; - verificar*/
-    width: 100%;
-    height: 100%;
+/*Rodapé*/
+.rodape {
+  color: #fff;
 }
 
-footer {
+
+
+/*Rodapé*/
+.rodape {
   color: #fff;
   text-align: center;
   font-family: 'Unbounded', cursive;
+  background-color: #391765;
+  padding-bottom: 10px;
 }
 
+.contato {
+  padding: 8px;
+}
+
+
+.contato-aluna a {
+  font-size: 0.35cm;
+  color: #fff;
+  margin-bottom: 15;
+}
 .nome-aluna {
   font-size: 15;
   color: rgb(202, 165, 233);
   margin-bottom: 15;
-
-} 
-
-.contato-aluna a {
-  font-size: 0.35cm;
-  color: whitesmoke;
-  margin-bottom: 15;
+  padding: 8px 8px 0 8px;
 }
 
-/*
+
+#conteudo-sobre {
+  background-color: #150932;
+  color:#fff;
+  opacity: 70%;
+  margin-top: 30px;
+  margin-right: 100px;
+} 
+
+
+/* estilização da barra de rollagem */
 ::-webkit-scrollbar-track {
   background-color: #12031b;
 }
 ::-webkit-scrollbar {
   width: 10px;
-  background: #e7aaf0;
+  background: #bd68f1;
 }
 ::-webkit-scrollbar-thumb {
-  background: #965eb6;
-}*/
+  background: #391765;
+}
+
+/*Estilização da classe do <main> dos cards*/
+.container-card{
+    position: relative;
+    margin-top: 15px;
+    display: flex; 
+    flex-wrap: wrap;/*formato lista na vertical */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*Estilização do background dos cards*/
+.cards{
+  width:400px;
+  height:290px;
+  margin: 10px;
+  display: inline-flex;
+  border-radius: 20px;
+  align-items: center;
+  
+}
+
+/*conteudo dos cards */
+.conteudo-cards {
+  grid-area: main;
+  width: 80%;
+}
+
+
+/*Estilização da imagem dos personagens nos cards*/
+.card-img{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: -7%;
+    position:relative;
+    max-width:360px;
+    max-height:300px;
+    border-radius: 25px;
+    /*transition: transform 0.8s;*/
+    /*transform-style: preserve-3d;*/
+    box-shadow: 0 0 8px 0 rgba(227, 2, 252, 0.897);
+    cursor: pointer;
+    padding-left: -50px;
+    padding-right: -50px;
+    align-content: center; 
+    border-width: 45px;
+}
+
+/*Nome do campeão - parte da frente dos cards*/
+#front-cards-txt{ 
+  box-shadow: 5px 7px 20px rgba(224, 71, 147, 0.219); 
+  background: #251147;
+  border-radius: 10%;
+  color:rgb(221, 194, 235);
+  text-align: center;
+  font-family: 'Unbounded', cursive;
+  margin-left: 12%;
+  margin-right: 5%;
+  border-width: 45px;
+  box-shadow: 0 0 8px 0 rgba(102, 2, 252, 0.897);
+  
+}
+
+.front-cards-infos{
+  position: absolute;
+  backface-visibility: hidden; 
+  text-align: center;
+  
+}
+
+/*Estilização da parte de trás dos cars */
+.back-cards-infos{
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  
+}
+ /*Animação de girar o card, flip */
+.flipper{
+	width: 100%;
+	height: 100%;
+  transition: transform 0.8s;
+	transform-style: preserve-3d;
+  position: relative;
+}
+.flip-container {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-container:hover .flipper{
+	transform: rotateY(180deg);
+}
+
+/*estilização da parte de trás do card*/
+.back-cards-txt{
+  color: rgb(211, 190, 239);
+  background-color: #200b5194;
+  padding: 30px;
+  border-radius: 60px;
+  margin-bottom: 35px;
+  font-size: 29px;
+  
+}
+
+#nome-campeao{
+  color:#b79be8;
+  background-color: #130534;
+  font-size: 35px ;
+}
+
+/* estilização da pagina 2 do sobre */
+#conteudo-sobre{
+  font-size: 12px;
+  font-family: 'Unbounded', cursive;
+  text-align: justify;
+  text-indent: 30px;
+  letter-spacing: 0.02cm; /* tamanho do espaço entre cada letra */
+  word-spacing: 3px; /* tamanho do espaço entre cada palavra */
+  border-color: rgba(139, 6, 254, 0.522);
+  border-style: solid;
+  border-width: 5px;
+  padding: 30px;
+}
