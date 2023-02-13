@@ -1,4 +1,4 @@
-import {filtroNomes} from './data.js';
+import {filtroNomes, ordenarCampeoes, funcaoDosCampeoes, dificuldadeCampeao, porcentagemCampeoes} from './data.js';
 import data from './data/lol/lol.js';
 
 //const lol = Object.keys(data.data); //tranformando objeto em um array
@@ -43,28 +43,48 @@ function infosDosCardsTela (data) {
 infosDosCardsTela(dadosLol);
 
 
-//PESQUISAR ESTÁ FUNCIONADO!
+//Pesquisar por nome
 const campoPesquisar = document.getElementById("txt-pesquisa");
 campoPesquisar.addEventListener("input", event => { //input é melhor que keypress
-  const nomeDoCampeao = event.target.value.toUpperCase();  //event.target.value trabalham juntos. Para gravar o conteudo digitado usa esse event, o target é a referencia ao objeto que enviou o evento, e o .value é o valor (objeto+conteudo+valor)
+  const nomeDoCampeao = event.target.value.toUpperCase();  //event.target.value trabalham juntos. 
   const filtrarCampeoes = filtroNomes(dadosLol, nomeDoCampeao); //chamada da função no arquivo data.js
   infosDosCardsTela(filtrarCampeoes);
 });
 
-
+//ordenar por A-Z e Z-A
 const ordenarPor = document.getElementById("ordenar");
-ordenarPor.addEventListener("click", () => {
-    console.log("ordenar: ok");
+ordenarPor.addEventListener("change", () => { 
+  let campeoesOrdenados = ordenarCampeoes(dadosLol);
+  infosDosCardsTela(campeoesOrdenados);
+  if(ordenarPor.value == "A-Z"){
+    infosDosCardsTela(dadosLol.reverse());
+  }
 });
 
-
+//filtro por função
 const buscarPorFuncao = document.getElementById("buscar-funcao");
-buscarPorFuncao.addEventListener("click", () => {
-    console.log("buscar por função: ok");
+buscarPorFuncao.addEventListener("change", () => {
+ let campeoesFuncao = funcaoDosCampeoes(dadosLol, buscarPorFuncao.value);
+ infosDosCardsTela(campeoesFuncao);
+
+ //cálculo porcentagem campeoes e numero total naquela função
+ const porcentagem = porcentagemCampeoes(dadosLol, campeoesFuncao);
+ console.log(`Campeões com essa função: ${campeoesFuncao.length}. Ou seja: ${porcentagem}% do total.`);
+
 });
 
-
+//filtro por dificuldade
 const buscarPorDificuldade = document.getElementById("buscar-dificuldade");
-buscarPorDificuldade.addEventListener("click", () => {
-    console.log("buscar por dificuldade: ok");
+buscarPorDificuldade.addEventListener("change", event => {
+  const dificuldade = event.target.value;
+  const filtroDificuldade = dificuldadeCampeao(dadosLol, dificuldade);
+  infosDosCardsTela(filtroDificuldade);
 });
+
+//responsividade
+const botaoMobile = document.getElementById("btn-mobile");
+botaoMobile.addEventListener("click", toggleMenu);
+function toggleMenu() {
+  const nav = document.getElementById("nav");
+  nav.classList.toggle("active");
+}
