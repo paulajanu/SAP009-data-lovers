@@ -42,8 +42,14 @@ Ao dar início a aplicação, foi desenvolvido um formulário com interesse em l
 ***
 
 ## 4. Histórias de Usuários
-
-
+ Após a pesquisa de campo utilizando o formulário, e após criação dos protótipos de alta e baixa fidelidade, montou-se por fim as histórias de usuários.
+ Tela 1: Histórias de usuários de 1 a 8. Todas foram executadas no projeto desenvolvido.
+ 
+ <div align='center'>
+<img alt="Tela das historias de usuario" src="https://user-images.githubusercontent.com/30864314/218828808-386d4581-5261-473e-8956-c22490368625.png"/>
+</div> 
+ 
+ 
 ***
 
 ## 5. Interface
