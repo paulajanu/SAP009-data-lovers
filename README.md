@@ -16,12 +16,12 @@ Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laborato
 ***
 ## 1. Resumo do projeto
 
-O projeto desenvolvido "Escolha seu Campeão" entrega ao usuário a possibilidade de escolher o melhor campeão para sua partida em [League of Legends](https://pt.wikipedia.org/wiki/League_of_Legends). A aplicação conta com as informações básicas para que o usuário (novato ou não) realize sua escolha.
+O projeto desenvolvido "Escolha seu Campeão" entrega ao usuário a possibilidade de escolher o melhor campeão para sua partida em [League of Legends](https://pt.wikipedia.org/wiki/League_of_Legends). A aplicação conta com as informações básicas para que o usuário realize sua escolha.
 
 ***
 ## 2. Protótipos
 
-Desenvolveu-se protótipos de baixa e alta fidelidade. Para o segundo, utilizou-se o programa [Figma](www.figma.com).
+Desenvolveu-se protótipos de baixa e alta fidelidade. Para o primeiro (de baixa fidelidade) utilizamos uma folha sulfite branca. Para o segundo, utilizou-se o programa [Figma](www.figma.com). As interações da aplicação foram desenvolvidas com base em nossa pesquisa de campo e histórias de usuários. Todo o projeto foi criado pensando em todos os tipos de usuários, sejam eles novatos ou não.
 
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218770635-25c7c695-4228-4d06-a019-3e6199d90979.png"/>
@@ -51,18 +51,18 @@ Ao dar início a aplicação, foi desenvolvido um formulário com interesse em l
 
 A interface desenvolvida levou em conta todas as sugestões respondidas pelos usuários em nossa pesquisa de campo com potenciais usuários de nossa aplicação, e também com as histórias de usuários desenvolvidas.
 
-Tela 1: Página inicial da aplicação. Ao lado esquerdo: menu de navegação com botões "Sobre", Buscar por: "Função" e "Dificuldade", e "Ordenar Por" e "Mostrar todos".
+Tela 1: Página inicial da aplicação. Ao lado esquerdo: menu de navegação com botões "Sobre", Buscar por: "Função" e "Dificuldade", "Ordenar Por" e "Mostrar todos".
 Na parte superior, logo do jogo, título, e botões interativos "Pesquisar por nome" e "Jogue agora!" com redirecionamento para o site para download do jogo.
 <div align='center'>
 <img alt="Tela1" src="https://user-images.githubusercontent.com/30864314/218776209-61077be1-f98c-434f-acf3-fe6cbdf888d3.png"/>
 </div> 
  
-Tela 2: Página "Sobre" com informações e histórias do jogo.
+Tela 2: Página "Sobre" com informações e histórias do jogo. ao lado esquedo foi desenvolvido um botão "Voltar" para que o usuário retorne à pagina principal.
 <div align='center'>
 <img alt="Tela2" src="https://user-images.githubusercontent.com/30864314/218776664-a9481f1a-5f50-4994-8cbd-2eb207daad8d.png"/>
 </div> 
  
-Tela 3: Animção de flip criada para os cards mostrarem mais informações dos campeões na parte de trás.
+Tela 3: Animação de flip criada para os todos cards mostrarem mais informações dos campeões na parte de trás. É mostrado informações de Ataque, Defesa, Magia e Dificuldade, ordenadas com uma escala de 0 a 10 do campeão.
 <div align='center'>
 <img alt="Tela3" src="https://user-images.githubusercontent.com/30864314/218809695-e47446dc-08e0-4d44-b1cd-e5843e3604aa.png"/>
 </div> 
