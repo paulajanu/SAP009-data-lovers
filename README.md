@@ -11,6 +11,7 @@ Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laborato
 * [4. Histórias de Usuários](#3-historias-de-usuarios)
 * [5. Interface](#4-interface)
 * [6. Responsividade](#4-responsividade)
+* [7. Extra](#4-extra)
 
 
 ***
@@ -78,5 +79,13 @@ Tela 2: Foi desenvolvido um Side Bar na vertical, onde aparecem os botões de in
 
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218777226-3bef45cd-9d46-4f3f-bcb5-18ca0d189e4c.png"/>
+</div> 
+
+***
+## 7. Extra
+
+Desenvolveu-se um cálculo agregado na aplicação. Exemplo: usuário escolhe filtrar por função, e escolhe a opção: "Atiradores". Dessa forma, aparece na tela o número total de campeões com a quela função, e a porcentagem: "Campeões com essa função: 24. Ou seja: 17.91% do total."
+<div align='center'>
+<img src="https://user-images.githubusercontent.com/30864314/218814325-3d0c0212-0e3e-4b5b-8d19-bad84889eb7e.png"/>
 </div> 
 
