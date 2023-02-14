@@ -23,7 +23,7 @@
         <div class="barra-pesquisa" id="menu">
           <input type="text" class="campo-pesquisa-txt" id="txt-pesquisa" placeholder="Pesquisar por nome">
           <a class="pesquisa-botao">
-            <svg class="lupa-branca" xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#fff" class="bi bi-search" viewBox="0 0 16 16">
+            <svg  xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#fff" class="bi bi-search" viewBox="0 0 16 16">
               <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
             </svg>
           </a>
@@ -46,12 +46,13 @@
           <div class="opcoes-barra-lateral">
             <select class="lista-seletores" id="buscar-funcao">
               <option disabled selected hidden> Função </option>
-              <option value="Assassin"><li>Assassinos</option></li>
-              <option value="Marksman"><li>Atiradores</option></li>
-              <option value="Fighter"><li>Lutadores</option></li>
-              <option value="Mage"><li>Magos</option></li>
-              <option value="Support"><li>Suportes</option></li>
-              <option value="Tank"><li>Tanques</option></li>
+              <option value="Assassin">Assassinos</option>
+              <option value="Marksman">Atiradores</option>
+              <option value="Fighter">Lutadores</option>
+              <option value="Mage">Magos</option>
+              <option value="Support">Suportes</option>
+              <option value="Tank">Tanques</option>
+              <option value="Melee">Corpo A Corpo</option>
             </select>
           </div>
           <div class="opcoes-barra-lateral">
@@ -61,12 +62,13 @@
               <option value="2">Moderada</option>
               <option value="3">Alta</option>
             </select>
+          </div>
           <hr class="separador">
           <div class="opcoes-barra-lateral">
             <select class="lista-seletores" id="ordenar">
               <option disabled selected hidden> Ordenar por </option>
-              <option value="A-Z" id="A-Z"><li>A-Z</option></li>
-              <option value="Z-A" id="Z-A"><li>Z-A</option></li>
+              <option value="A-Z" id="A-Z">A-Z</option>
+              <option value="Z-A" id="Z-A">Z-A</option>
             </select>
           </div>
           <div class="opcoes-barra-lateral">
@@ -76,6 +78,7 @@
         <!--Cards-->
         <main class="conteudo-cards">
           <section>
+            <p class="mensagem" id="mensagem-tela"></p><!--  resultado dos cálculos -->
             <div class="container-card" id="info-cards"></div>
           </section>
 
