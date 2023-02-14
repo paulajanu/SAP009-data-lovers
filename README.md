@@ -1,6 +1,6 @@
 # Escolha o seu Campeão 🥇
 
-Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laboratoria.la/br). O objetivo consiste em uma aplicação responsiva com informações sobre o jogo League of Legends, com opções de ordenação alfabética, por função do campeão e filtragem por nome, por exemplo. Elaborado em conjunto com [Ana Paula Januário](https://github.com/paulajanu).
+Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laboratoria.la/br). O objetivo consiste em uma aplicação responsiva com informações sobre o jogo League of Legends, com opções de ordenação alfabética, por função do campeão e filtragem por nome, por exemplo. 
 
 ***
 <div align="center">
