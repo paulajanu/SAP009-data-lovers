@@ -5,7 +5,7 @@ Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laborato
 ***
 <div align="center">
   
-  Acesse o projeto: [aqui](https://analeticiabacha.github.io/SAP009-data-lovers/).  
+  Acesse o projeto: [aqui](https://analeticiabacha.github.io/SAP009-data-lovers/)  
   <br>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" style="height: 30px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" style="height: 30px;"/>
