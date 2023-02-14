@@ -1,4 +1,4 @@
-# Data Lovers
+# Escolha o seu Campeão 🥇
 
 Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laboratoria.la/br). O objetivo consiste em uma aplicação responsiva com informações sobre o jogo League of Legends, com opções de ordenação alfabética, por função do campeão e filtragem por nome, por exemplo. Elaborado em conjunto com [Ana Paula Januário](https://github.com/paulajanu).
 
@@ -12,15 +12,16 @@ Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laborato
 * [5. Interface](#4-interface)
 * [6. Responsividade](#4-responsividade)
 * [7. Extra](#4-extra)
+* [8. Checklists de Objetivos Alcançados](#8-checklist-de-objetivos-alcançados)
 
 
 ***
-## 1. Resumo do projeto
+## 1. Resumo do projeto 🗒️
 
 O projeto desenvolvido "Escolha seu Campeão" entrega ao usuário a possibilidade de escolher o melhor campeão para sua partida em [League of Legends](https://pt.wikipedia.org/wiki/League_of_Legends). A aplicação conta com as informações básicas para que o usuário realize sua escolha.
 
 ***
-## 2. Protótipos
+## 2. Protótipos 📽️
 
 Desenvolveu-se protótipos de baixa e alta fidelidade. Para o primeiro (de baixa fidelidade) utilizamos uma folha sulfite branca. Para o segundo, utilizou-se o programa [Figma](www.figma.com). As interações da aplicação foram desenvolvidas com base em nossa pesquisa de campo e histórias de usuários. Todo o projeto foi criado pensando em todos os tipos de usuários, sejam eles novatos ou não.
 
@@ -28,7 +29,7 @@ Desenvolveu-se protótipos de baixa e alta fidelidade. Para o primeiro (de baixa
 <img src="https://user-images.githubusercontent.com/30864314/218770635-25c7c695-4228-4d06-a019-3e6199d90979.png"/>
 </div>
 
-## 3. Pesquisa de Campo 
+## 3. Pesquisa de Campo 🖊️
 
 Ao dar início a aplicação, foi desenvolvido um formulário com interesse em levantar todas as informações que um jogador de LoL gostaria de acessar. Já incluso imagens do protótipo de alta fidelidade para o usuário visualizar. Dentre elas: filtros por nome do campeão, ordenar de A-Z ou Z-A, filtros por funções, etc.
 
@@ -36,12 +37,9 @@ Ao dar início a aplicação, foi desenvolvido um formulário com interesse em l
 <img src="https://user-images.githubusercontent.com/30864314/218821699-bbdac792-77a6-4e78-bad5-eb8eb33f144a.png"/>
 </div> 
 
-
-
-
 ***
 
-## 4. Histórias de Usuários
+## 4. Histórias de Usuários 📓
  Após a pesquisa de campo utilizando o formulário, e após criação dos protótipos de alta e baixa fidelidade, montou-se por fim as histórias de usuários.
  Tela 1: Histórias de usuários de 1 a 8. Todas foram executadas no projeto desenvolvido.
  
@@ -52,7 +50,7 @@ Ao dar início a aplicação, foi desenvolvido um formulário com interesse em l
  
 ***
 
-## 5. Interface
+## 5. Interface 💻
 
 A interface desenvolvida levou em conta todas as sugestões respondidas pelos usuários em nossa pesquisa de campo com potenciais usuários de nossa aplicação, e também com as histórias de usuários desenvolvidas.
 
@@ -73,7 +71,7 @@ Tela 3: Animação de flip criada para os todos cards mostrarem mais informaçõ
 </div> 
  
 ***
-## 6. Responsividade
+## 6. Responsividade 📱
 Tela 1: Criamos uma interface responsiva para telas com menos de 900px. Nessa aplicação responsiva, o logo e o botão "jogue agora" não aparecem para melhor funcionalidade do projeto em telas menores. 
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218776897-c5b5d5cc-7344-4932-8e6e-3a1030619631.png"/>
@@ -86,10 +84,24 @@ Tela 2: Foi desenvolvido um Side Bar na vertical, onde aparecem os botões de in
 </div> 
 
 ***
-## 7. Extra
+## 7. Extra ⏭️
 
 Desenvolveu-se um cálculo agregado na aplicação. Exemplo: usuário escolhe filtrar por função, e escolhe a opção: "Atiradores". Dessa forma, aparece na tela o número total de campeões com a quela função, e a porcentagem: "Campeões com essa função: 24. Ou seja: 17.91% do total."
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218814325-3d0c0212-0e3e-4b5b-8d19-bad84889eb7e.png"/>
 </div> 
+
+***
+## 8. Checklist de objetivos alcançados 🏆 
+
+ [🌟] Usar VanillaJS.
+ [🌟] Passa pelo linter (npm run pretest)
+ [🌟] Passa pelos testes (npm test)
+ [🌟] Testes unitários cobrem um mínimo de 70% de statements, functions, lines e branches.
+ [🌟] Inclui uma definição de produto clara e informativa no README.md.
+ [🌟] Inclui histórias de usuário no README.md.
+ [🌟] Inclui rascunho da solução (protótipo de alta fidelidade) no README.md.
+ [🌟] UI: Permite ordenar dados por um ou mais campos (asc e desc).
+ [🌟] UI: Permite filtrar dados com base em uma condição.
+ [🌟] UI: É responsivo.
 
