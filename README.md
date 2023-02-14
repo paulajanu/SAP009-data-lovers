@@ -55,12 +55,12 @@ Ao dar início a aplicação, foi desenvolvido um formulário com interesse em l
 A interface desenvolvida levou em conta todas as sugestões respondidas pelos usuários em nossa pesquisa de campo com potenciais usuários de nossa aplicação, e também com as histórias de usuários desenvolvidas.
 
 Tela 1: Página inicial da aplicação. Ao lado esquerdo: menu de navegação com botões "Sobre", Buscar por: "Função" e "Dificuldade", "Ordenar Por" e "Mostrar todos".
-Na parte superior, logo do jogo, título, e botões interativos "Pesquisar por nome" e "Jogue agora!" com redirecionamento para o site para download do jogo.
+Na parte superior, logo do jogo, título, e botões interativos "Pesquisar por nome" e "Jogue agora!" com redirecionamento para o site de download do jogo.
 <div align='center'>
 <img alt="Tela1" src="https://user-images.githubusercontent.com/30864314/218776209-61077be1-f98c-434f-acf3-fe6cbdf888d3.png"/>
 </div> 
  
-Tela 2: Página "Sobre" com informações e histórias do jogo. ao lado esquedo foi desenvolvido um botão "Voltar" para que o usuário retorne à pagina principal.
+Tela 2: Página "Sobre" com informações e histórias do jogo. ao lado esquerdo foi desenvolvido um botão "Voltar" para que o usuário retorne à pagina principal.
 <div align='center'>
 <img alt="Tela2" src="https://user-images.githubusercontent.com/30864314/218776664-a9481f1a-5f50-4994-8cbd-2eb207daad8d.png"/>
 </div> 
@@ -72,12 +72,12 @@ Tela 3: Animação de flip criada para os todos cards mostrarem mais informaçõ
  
 ***
 ## 6. Responsividade 📱
-Tela 1: Criamos uma interface responsiva para telas com menos de 900px. Nessa aplicação responsiva, o logo e o botão "jogue agora" não aparecem para melhor funcionalidade do projeto em telas menores. 
+Tela 1: Criamos uma interface responsiva para telas com menos de 900px. Nessa aplicação, o logo e o botão "jogue agora" não aparecem para melhor funcionalidade do projeto em telas menores. 
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218776897-c5b5d5cc-7344-4932-8e6e-3a1030619631.png"/>
 </div> 
 
-Tela 2: Foi desenvolvido um Side Bar na vertical, onde aparecem os botões de interação da aplicação, conforme versão desktop. O campo de pesquisa "Pesquisar por nome", ao ser pressionado, mostra o campo para receber o nome do campeão desejado.
+Tela 2: Foi desenvolvido um Side Bar na vertical, onde aparecem os botões de interação da aplicação, conforme versão desktop. O campo "Pesquisar por nome", ao ser pressionado, se abre para receber o nome do campeão desejado.
 
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218777226-3bef45cd-9d46-4f3f-bcb5-18ca0d189e4c.png"/>
@@ -86,7 +86,7 @@ Tela 2: Foi desenvolvido um Side Bar na vertical, onde aparecem os botões de in
 ***
 ## 7. Extra ⏭️
 
-Desenvolveu-se um cálculo agregado na aplicação. Exemplo: usuário escolhe filtrar por função, e escolhe a opção: "Atiradores". Dessa forma, aparece na tela o número total de campeões com a quela função, e a porcentagem: "Campeões com essa função: 24. Ou seja: 17.91% do total."
+Desenvolveu-se um cálculo agregado na aplicação. Exemplo: usuário escolhe filtrar por função, e escolhe a opção: "Atiradores". Dessa forma, aparece na tela o número total de campeões com a quela função, e a porcentagem, como: "Campeões com essa função: 24. Ou seja: 17.91% do total."
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218814325-3d0c0212-0e3e-4b5b-8d19-bad84889eb7e.png"/>
 </div> 
@@ -94,14 +94,14 @@ Desenvolveu-se um cálculo agregado na aplicação. Exemplo: usuário escolhe fi
 ***
 ## 8. Checklist de objetivos alcançados 🏆 
 
- [🌟] Usar VanillaJS.
- [🌟] Passa pelo linter (npm run pretest)
- [🌟] Passa pelos testes (npm test)
- [🌟] Testes unitários cobrem um mínimo de 70% de statements, functions, lines e branches.
- [🌟] Inclui uma definição de produto clara e informativa no README.md.
- [🌟] Inclui histórias de usuário no README.md.
- [🌟] Inclui rascunho da solução (protótipo de alta fidelidade) no README.md.
- [🌟] UI: Permite ordenar dados por um ou mais campos (asc e desc).
- [🌟] UI: Permite filtrar dados com base em uma condição.
- [🌟] UI: É responsivo.
+ - [:star2:] Usar VanillaJS.
+ - [:star2:] Passa pelo linter (npm run pretest)
+ - [:star2:] Passa pelos testes (npm test)
+ - [:star2:] Testes unitários cobrem um mínimo de 70% de statements, functions, lines e branches.
+ - [:star2:] Inclui uma definição de produto clara e informativa no README.md.
+ - [:star2:] Inclui histórias de usuário no README.md.
+ - [:star2:] Inclui rascunho da solução (protótipo de alta fidelidade) no README.md.
+ - [:star2:] UI: Permite ordenar dados por um ou mais campos (asc e desc).
+ - [:star2:] UI: Permite filtrar dados com base em uma condição.
+ - [:star2:] UI: É responsivo.
 
