@@ -33,11 +33,9 @@ Desenvolveu-se protótipos de baixa e alta fidelidade. Para o primeiro (de baixa
 Ao dar início a aplicação, foi desenvolvido um formulário com interesse em levantar todas as informações que um jogador de LoL gostaria de acessar. Já incluso imagens do protótipo de alta fidelidade para o usuário visualizar. Dentre elas: filtros por nome do campeão, ordenar de A-Z ou Z-A, filtros por funções, etc.
 
 <div align='center'>
-<img src="https://user-images.githubusercontent.com/30864314/218774884-a65edb14-380e-42cc-9aeb-c06241ed2a09.png"/>
+<img src="https://user-images.githubusercontent.com/30864314/218821699-bbdac792-77a6-4e78-bad5-eb8eb33f144a.png"/>
 </div> 
-<div align='center'>
-<img src="https://user-images.githubusercontent.com/30864314/218775441-deb83563-93c6-4e91-922c-6a118b8ce8a1.png"/>
-</div> 
+
 
 
 
