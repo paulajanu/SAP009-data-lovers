@@ -50,26 +50,31 @@ Ao dar início a aplicação, foi desenvolvido um formulário com interesse em l
 ## 5. Interface
 
 A interface desenvolvida levou em conta todas as sugestões respondidas pelos usuários em nossa pesquisa de campo com potenciais usuários de nossa aplicação, e também com as histórias de usuários desenvolvidas.
-Tela 1:
-<div align='center'>
-<img src="https://user-images.githubusercontent.com/30864314/218776209-61077be1-f98c-434f-acf3-fe6cbdf888d3.png"/>
-</div> 
- 
-Tela 2:
-<div align='center'>
-<img src="https://user-images.githubusercontent.com/30864314/218776664-a9481f1a-5f50-4994-8cbd-2eb207daad8d.png"/>
-</div> 
- 
 
+Tela 1: Página inicial da aplicação. Ao lado esquerdo: menu de navegação com botões "Sobre", Buscar por: "Função" e "Dificuldade", e "Mostrar todos".
+Na parte superior, logo do jogo, título, e botões interativos "Pesquisar por nome" e "Jogue agora!" com redirecionamento para o site para download do jogo.
+<div align='center'>
+<img alt="Tela1" src="https://user-images.githubusercontent.com/30864314/218776209-61077be1-f98c-434f-acf3-fe6cbdf888d3.png"/>
+</div> 
+ 
+Tela 2: Página "Sobre" com informações e histórias do jogo.
+<div align='center'>
+<img alt="Tela2" src="https://user-images.githubusercontent.com/30864314/218776664-a9481f1a-5f50-4994-8cbd-2eb207daad8d.png"/>
+</div> 
+ 
+Tela 3: Animção de flip criada para os cards mostrarem mais informações dos campeões na parte de trás.
+<div align='center'>
+<img alt="Tela3" src="https://user-images.githubusercontent.com/30864314/218809695-e47446dc-08e0-4d44-b1cd-e5843e3604aa.png"/>
+</div> 
  
 ***
 ## 6. Responsividade
-Tela 1:
+Tela 1: Criamos uma interface responsiva para telas com menos de 900px. Nessa aplicação responsiva, o logo e o botão "jogue agora" não aparecem para melhor funcionalidade do projeto em telas menores. 
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218776897-c5b5d5cc-7344-4932-8e6e-3a1030619631.png"/>
 </div> 
 
-Tela 2:
+Tela 2: Foi desenvolvido um Side Bar na vertical, onde aparecem os botões de interação da aplicação, conforme versão desktop. O campo de pesquisa "Pesquisar por nome", ao ser pressionado, mostra o campo para receber o nome do campeão desejado.
 
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218777226-3bef45cd-9d46-4f3f-bcb5-18ca0d189e4c.png"/>
