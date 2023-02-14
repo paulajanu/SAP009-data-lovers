@@ -2,17 +2,36 @@
 
 Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laboratoria.la/br). O objetivo consiste em uma aplicação responsiva com informações sobre o jogo League of Legends, com opções de ordenação alfabética, por função do campeão e filtragem por nome, por exemplo. Elaborado em conjunto com [Ana Paula Januário](https://github.com/paulajanu).
 
+***
+<div align="center">
+  
+  Acesse o projeto: [aqui](https://github.com/analeticiabacha/SAP009-data-lovers).  
+  <br>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" style="height: 30px;"/>
+  <br>
 
+  Desenvolvido por 
+  <br>
+  Ana Leticia B. Prince <br> 
+  [Linkedin](https://www.linkedin.com/in/analeticiabacha) | [Github](https://github.com/analeticiabacha)
+  <br>
+  Ana Paula Januário <br>
+  [Linkedin](https://www.linkedin.com/in/ana-paula-413517259/) | [Github](https://github.com/paulajanu)
+</div>
+ 
+***
 ## Índice
 
-* [1. Resumo do projeto](#1-resumo-do-projeto)
-* [2. Protótipos](#2-prototipos)
-* [3. Pesquisa de Campo](#3-pesquisa-de-campo)
-* [4. Histórias de Usuários](#3-historias-de-usuarios)
-* [5. Interface](#4-interface)
-* [6. Responsividade](#4-responsividade)
-* [7. Extra](#4-extra)
-* [8. Checklists de Objetivos Alcançados](#8-checklist-de-objetivos-alcançados)
+* [1. Resumo do projeto](#1-resumo-do-projeto)🗒️
+* [2. Protótipos](#2-prototipos)📽️
+* [3. Pesquisa de Campo](#3-pesquisa-de-campo)🖊️
+* [4. Histórias de Usuários](#3-historias-de-usuarios)📌
+* [5. Interface](#4-interface)💻
+* [6. Responsividade](#4-responsividade)📱
+* [7. Extra](#4-extra)⏭️
+* [8. Checklists de Objetivos Alcançados](#8-checklist-de-objetivos-alcançados)🏆
 
 
 ***
@@ -39,7 +58,7 @@ Ao dar início a aplicação, foi desenvolvido um formulário com interesse em l
 
 ***
 
-## 4. Histórias de Usuários 📓
+## 4. Histórias de Usuários 📌
  Após a pesquisa de campo utilizando o formulário, e após criação dos protótipos de alta e baixa fidelidade, montou-se por fim as histórias de usuários.
  Tela 1: Histórias de usuários de 1 a 8. Todas foram executadas no projeto desenvolvido.
  
@@ -86,7 +105,7 @@ Tela 2: Foi desenvolvido um Side Bar na vertical, onde aparecem os botões de in
 ***
 ## 7. Extra ⏭️
 
-Desenvolveu-se um cálculo agregado na aplicação. Exemplo: usuário escolhe filtrar por função, e escolhe a opção: "Atiradores". Dessa forma, aparece na tela o número total de campeões com a quela função, e a porcentagem, como: "Campeões com essa função: 24. Ou seja: 17.91% do total."
+Desenvolveu-se um cálculo agregado na aplicação. Exemplo: usuário escolhe filtrar por função, e escolhe a opção: "Atiradores". Dessa forma, aparece na tela o número total de campeões com aquela função, e a porcentagem, como: "Campeões com essa função: 24. Ou seja: 17.91% do total."
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218814325-3d0c0212-0e3e-4b5b-8d19-bad84889eb7e.png"/>
 </div> 
