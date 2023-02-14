@@ -51,7 +51,7 @@ Ao dar início a aplicação, foi desenvolvido um formulário com interesse em l
 
 A interface desenvolvida levou em conta todas as sugestões respondidas pelos usuários em nossa pesquisa de campo com potenciais usuários de nossa aplicação, e também com as histórias de usuários desenvolvidas.
 
-Tela 1: Página inicial da aplicação. Ao lado esquerdo: menu de navegação com botões "Sobre", Buscar por: "Função" e "Dificuldade", e "Mostrar todos".
+Tela 1: Página inicial da aplicação. Ao lado esquerdo: menu de navegação com botões "Sobre", Buscar por: "Função" e "Dificuldade", e "Ordenar Por" e "Mostrar todos".
 Na parte superior, logo do jogo, título, e botões interativos "Pesquisar por nome" e "Jogue agora!" com redirecionamento para o site para download do jogo.
 <div align='center'>
 <img alt="Tela1" src="https://user-images.githubusercontent.com/30864314/218776209-61077be1-f98c-434f-acf3-fe6cbdf888d3.png"/>
