@@ -1,6 +1,6 @@
 # Data Lovers
 
-Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laboratoria.la/br). O objetivo consiste em uma aplicação responsiva com informações sobre o jogo League of Legends, com opções de ordenação e filtragem dos campeões. Elaborado em conjunto com [Ana Paula Jauário](https://github.com/paulajanu).
+Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laboratoria.la/br). O objetivo consiste em uma aplicação responsiva com informações sobre o jogo League of Legends, com opções de ordenação alfabética, por função do campeão e filtragem por nome, por exemplo. Elaborado em conjunto com [Ana Paula Januário](https://github.com/paulajanu).
 
 
 ## Índice
@@ -8,8 +8,9 @@ Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laborato
 * [1. Resumo do projeto](#1-resumo-do-projeto)
 * [2. Protótipos](#2-prototipos)
 * [3. Pesquisa de Campo](#3-pesquisa-de-campo)
-* [4. Interface](#4-interface)
-* [5. Responsividade](#4-responsividade)
+* [4. Histórias de Usuários](#3-historias-de-usuarios)
+* [5. Interface](#4-interface)
+* [6. Responsividade](#4-responsividade)
 
 
 ***
@@ -38,9 +39,17 @@ Ao dar início a aplicação, foi desenvolvido um formulário com interesse em l
 </div> 
 
 
+
 ***
-## 4. Interface
-//escrever paragrafo
+
+## 4. Histórias de Usuários
+
+
+***
+
+## 5. Interface
+
+A interface desenvolvida levou em conta todas as sugestões respondidas pelos usuários em nossa pesquisa de campo com potenciais usuários de nossa aplicação, e também com as histórias de usuários desenvolvidas.
 Tela 1:
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218776209-61077be1-f98c-434f-acf3-fe6cbdf888d3.png"/>
@@ -54,7 +63,7 @@ Tela 2:
 
  
 ***
-## 5. Responsividade
+## 6. Responsividade
 Tela 1:
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218776897-c5b5d5cc-7344-4932-8e6e-3a1030619631.png"/>
