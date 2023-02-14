@@ -4,8 +4,8 @@ import data from './data/lol/lol.js';
 //const lol = Object.keys(data.data); //tranformando objeto em um array
 //console.log(teste.); //deu certo: array de strings
 
-let dadosLol = [];
-for (let character in data.data){
+const dadosLol = [];
+for (const character in data.data){
   dadosLol.push(data.data[character]);
 }
 
@@ -45,8 +45,8 @@ infosDosCardsTela(dadosLol);
 
 //Pesquisar por nome
 const campoPesquisar = document.getElementById("txt-pesquisa");
-campoPesquisar.addEventListener("input", event => { //input é melhor que keypress
-  const nomeDoCampeao = event.target.value.toUpperCase();  //event.target.value trabalham juntos. 
+campoPesquisar.addEventListener("input", event => { 
+  const nomeDoCampeao = event.target.value.toUpperCase();  //event.target.value trabalham juntos 
   const filtrarCampeoes = filtroNomes(dadosLol, nomeDoCampeao); //chamada da função no arquivo data.js
   infosDosCardsTela(filtrarCampeoes);
 });
@@ -54,9 +54,9 @@ campoPesquisar.addEventListener("input", event => { //input é melhor que keypre
 //ordenar por A-Z e Z-A
 const ordenarPor = document.getElementById("ordenar");
 ordenarPor.addEventListener("change", () => { 
-  let campeoesOrdenados = ordenarCampeoes(dadosLol);
+  const campeoesOrdenados = ordenarCampeoes(dadosLol);
   infosDosCardsTela(campeoesOrdenados);
-  if(ordenarPor.value == "A-Z"){
+  if(ordenarPor.value === "A-Z"){
     infosDosCardsTela(dadosLol.reverse());
   }
 });
@@ -64,14 +64,18 @@ ordenarPor.addEventListener("change", () => {
 //filtro por função
 const buscarPorFuncao = document.getElementById("buscar-funcao");
 buscarPorFuncao.addEventListener("change", () => {
- let campeoesFuncao = funcaoDosCampeoes(dadosLol, buscarPorFuncao.value);
- infosDosCardsTela(campeoesFuncao);
+  const campeoesFuncao = funcaoDosCampeoes(dadosLol, buscarPorFuncao.value);
+  infosDosCardsTela(campeoesFuncao);
 
- //cálculo porcentagem campeoes e numero total naquela função
- const porcentagem = porcentagemCampeoes(dadosLol, campeoesFuncao);
- console.log(`Campeões com essa função: ${campeoesFuncao.length}. Ou seja: ${porcentagem}% do total.`);
+  //cálculo porcentagem campeoes e numero total naquela FUNÇÃO
+  const mensagemTela = document.getElementById("mensagem-tela");
+  const porcentagem = porcentagemCampeoes(dadosLol, campeoesFuncao);
+  mensagemTela.innerHTML = (`Campeões com essa função: ${campeoesFuncao.length}. Ou seja: ${porcentagem}% do total.`);
 
 });
+
+
+
 
 //filtro por dificuldade
 const buscarPorDificuldade = document.getElementById("buscar-dificuldade");
@@ -79,6 +83,12 @@ buscarPorDificuldade.addEventListener("change", event => {
   const dificuldade = event.target.value;
   const filtroDificuldade = dificuldadeCampeao(dadosLol, dificuldade);
   infosDosCardsTela(filtroDificuldade);
+
+  //cálculo porcentagem campeoes e numero total naquela DIFICULDADE
+  const mensagemTela = document.getElementById("mensagem-tela");
+  const porcentagem = porcentagemCampeoes(dadosLol, filtroDificuldade);
+  mensagemTela.innerHTML = (`Campeões com essa dificuldade: ${filtroDificuldade.length}. Ou seja: ${porcentagem}% do total.`);
+
 });
 
 //responsividade
@@ -88,3 +98,4 @@ function toggleMenu() {
   const nav = document.getElementById("nav");
   nav.classList.toggle("active");
 }
+
