@@ -1,33 +1,29 @@
 import { filtroNomes, ordenarCampeoes, funcaoDosCampeoes, dificuldadeCampeao } from '../src/data.js';
-//ordenarCampeoes, funcaoDosCampeoes, dificuldadeCampeao, porcentagemCampeoes} from '../src/data.js';
-//pq o git bash nao esta oclorido?
-//como testar o calculo de porcentagem?
 
-const testeCampeoes = { //quantos devemos testar???
-  campeao1: {
-    name: "Aatrox",
-    info: {
-      dificuldade: 4,
-    },
-    tags: ["Fighter" , "Tank"]
+const aatrox = {
+  name: "Aatrox",
+  info: {
+    dificuldade: 4,
   },
+  tags: ["Fighter" , "Tank"]
+};
+const ahri =  {
+  name: "Ahri",
+  info: {
+    dificuldade: 5,
+  },
+  tags: ["Mage" , "Assassin"]
 
-  campeao2: {
-    name: "Ahri",
-    info: {
-      dificuldade: 5,
-    },
-    tags: ["Mage" , "Assassin"]
+};
+const zyra =  {
+  name: "Zyra",
+  info: {
+    dificuldade: 7,
+  },
+  tags: ["Mage" , "Support"]
+};
 
-  },
-  campeao3: {
-    name: "Zyra",
-    info: {
-      dificuldade: 7,
-    },
-    tags: ["Mage" , "Support"]
-  },
-}
+const testeCampeoes = [aatrox, ahri, zyra];
 
 //testando se nosso objeto é um objeto mesmo
 describe("testeCampeoes", () => {
@@ -41,19 +37,46 @@ describe('filtroNomes' , () => {
   it('deve ser uma função', () => {
     expect(typeof filtroNomes).toBe("function");
   });
+  it('deve retornar um array com os dados do nome do campeão que foi pesquisado', () => {
+    const name = 'Aatrox';
+    expect(filtroNomes(testeCampeoes, name)).toEqual([aatrox])
+  })
 });
 
 //testando função ordenar campeões
 describe('ordenarCampeoes', () => {
+
   it('deve ser uma função', () => {
     expect(typeof ordenarCampeoes).toBe("function");
+  }); //ok
+
+  it('deve ordenar de Z-A', () => {
+    const resultado = ordenarCampeoes(testeCampeoes, "Z-A");
+    expect(resultado[0].name).toBe("Zyra");
   });
+
+  it('deve ordenar de A-Z', () => {
+    const resultado = ordenarCampeoes(testeCampeoes, 'A-Z');
+    expect(resultado[0].name).toBe("Aatrox");
+  });
+
 });
 
-//testando função que verficiar a função dos campeões
+//testando função que verficiar a função dos campeões         
 describe('funcaoDosCampeoes', () => {
   it('deve ser uma função', () => {
     expect(typeof funcaoDosCampeoes).toBe("function");
+  }); //ok
+
+  it('deve buscar por Lutadores ', () => {
+    const resultado = funcaoDosCampeoes(testeCampeoes, "Fighter");
+    expect(resultado).toEqual([aatrox]);
+  });
+
+  it('deve buscar por Assassinos ', () => {
+    const resultado = funcaoDosCampeoes(testeCampeoes, "Assassin");
+    expect(resultado).toEqual([ahri]);
+    
   });
 });
 

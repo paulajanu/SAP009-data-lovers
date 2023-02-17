@@ -449,6 +449,15 @@ li {
 .cards{
   display: flex;
   justify-content: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.mensagem {
+  display: flex;
+  justify-content: center;
+  margin-left: 110px;
+  margin-right: 50px;
+
 }
 
 #hamburguer::after , #hamburguer::before{

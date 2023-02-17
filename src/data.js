@@ -1,10 +1,17 @@
 //Filtrar por nome
 export const filtroNomes = (dados, nomePesquisado) => {
-  return dados.filter(campeao => campeao.name.toUpperCase().includes(nomePesquisado)); //poderia ser id ou name  
+  return dados.filter(campeao => campeao.name.toUpperCase().includes(nomePesquisado.toUpperCase())); //poderia ser id ou name  
 };
 
 //Ordenar por Z-A. De A-Z está no js usando reverse().
-export const ordenarCampeoes = (dados) => dados.sort((campeao_x, campeao_y) => { 
+export const ordenarCampeoes = (dados, ordem) => {
+  if(ordem === "A-Z"){
+    return ordenarAlfabeticamente(dados);
+  }
+  return ordenarInverso(dados);
+}
+
+const ordenarAlfabeticamente = (dados) => dados.sort((campeao_x, campeao_y) => { 
   if (campeao_x.name > campeao_y.name) { //poderia ser id tbm
     return -1; //requisitos do método sort() decrescente
   } if (campeao_x.name < campeao_y.name){
@@ -14,6 +21,7 @@ export const ordenarCampeoes = (dados) => dados.sort((campeao_x, campeao_y) => {
   } 
 }); 
 
+const ordenarInverso = (dados) => ordenarAlfabeticamente(dados).reverse();
 //Filtrar por função do campeão
 export const funcaoDosCampeoes = (dados, tipo) => { 
   return dados.filter(campeao => campeao.tags.includes(tipo));
