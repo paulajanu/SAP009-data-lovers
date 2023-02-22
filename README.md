@@ -1,16 +1,16 @@
 # Escolha o seu Campeão 🥇
 
-Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laboratoria.la/br). O objetivo consiste em uma aplicação responsiva com informações sobre o jogo League of Legends, com opções de ordenação alfabética, por função do campeão e filtragem por nome, por exemplo. 
+Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laboratoria.la/br). O objetivo foi criar uma página web responsiva com informações sobre o jogo League of Legends que permita visualizar dados, filtrá-los e ordená-los. 
 
 ***
 <div align="center">
   
-  Acesse o projeto: [aqui](https://analeticiabacha.github.io/SAP009-data-lovers/)  
+  Acesse o projeto: [aqui](https://paulajanu.github.io/SAP009-data-lovers/)  
   <br>
   <img align="center" alt="git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="vscode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
   <img align="center" alt="Figma" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
   <br>
@@ -36,7 +36,6 @@ Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laborato
 * [7. Extra](#4-extra)⏭️
 * [8. Checklists de Objetivos Alcançados](#8-checklist-de-objetivos-alcançados)🏆
 
-
 ***
 ## 1. Resumo do projeto 🗒️
 
@@ -45,7 +44,15 @@ O projeto desenvolvido "Escolha seu Campeão" entrega ao usuário a possibilidad
 ***
 ## 2. Protótipos 📽️
 
-Desenvolveu-se protótipos de baixa e alta fidelidade. Para o primeiro (de baixa fidelidade) utilizamos uma folha sulfite branca. Para o segundo, utilizou-se o programa [Figma](www.figma.com). As interações da aplicação foram desenvolvidas com base em nossa pesquisa de campo e histórias de usuários. Todo o projeto foi criado pensando em todos os tipos de usuários, sejam eles novatos ou não.
+Desenvolveu-se protótipos de baixa e alta fidelidade. Para o primeiro (de baixa fidelidade) utilizamos uma folha e para o segundo, utilizou-se o programa [Figma](www.figma.com). As interações da aplicação foram desenvolvidas com base em nossa pesquisa de campo e histórias de usuários. Todo o projeto foi criado pensando em todos os tipos de usuários, sejam eles novatos ou não. 
+
+- Protótipos de baixa fidelidade: 
+
+<div align='center'>
+<img src="https://user-images.githubusercontent.com/111135414/220668717-fe589993-b082-48a6-a01d-c11e1f309317.png"/>
+</div>
+
+- Protótipo de alta fidelidade:
 
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218770635-25c7c695-4228-4d06-a019-3e6199d90979.png"/>
@@ -53,7 +60,7 @@ Desenvolveu-se protótipos de baixa e alta fidelidade. Para o primeiro (de baixa
 
 ## 3. Pesquisa de Campo 🖊️
 
-Ao dar início a aplicação, foi desenvolvido um formulário com interesse em levantar todas as informações que um jogador de LoL gostaria de acessar. Já incluso imagens do protótipo de alta fidelidade para o usuário visualizar. Dentre elas: filtros por nome do campeão, ordenar de A-Z ou Z-A, filtros por funções, etc.
+Ao dar início a aplicação, foi desenvolvido um formulário com interesse em levantar todas as informações que um jogador de LoL gostaria de acessar, já incluso imagens do protótipo de alta fidelidade para o usuário visualizar.
 
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218821699-bbdac792-77a6-4e78-bad5-eb8eb33f144a.png"/>
@@ -62,13 +69,12 @@ Ao dar início a aplicação, foi desenvolvido um formulário com interesse em l
 ***
 
 ## 4. Histórias de Usuários 📌
- Após a pesquisa de campo utilizando o formulário, e após criação dos protótipos de alta e baixa fidelidade, montou-se por fim as histórias de usuários.
- Tela 1: Histórias de usuários de 1 a 8. Todas foram executadas no projeto desenvolvido.
+ Após a pesquisa de campo utilizando o formulário, e após criação dos protótipos de alta e baixa fidelidade, montou-se por fim as histórias de usuários. 
+ Todas foram executadas no projeto desenvolvido.
  
  <div align='center'>
-<img alt="Tela das historias de usuario" src="https://user-images.githubusercontent.com/30864314/218828808-386d4581-5261-473e-8956-c22490368625.png"/>
-</div> 
- 
+ <img alt="Tela das historias de usuario" src="https://user-images.githubusercontent.com/30864314/218828808-386d4581-5261-473e-8956-c22490368625.png"/>
+ </div> 
  
 ***
 
@@ -77,17 +83,20 @@ Ao dar início a aplicação, foi desenvolvido um formulário com interesse em l
 A interface desenvolvida levou em conta todas as sugestões respondidas pelos usuários em nossa pesquisa de campo com potenciais usuários de nossa aplicação, e também com as histórias de usuários desenvolvidas.
 
 Tela 1: Página inicial da aplicação. Ao lado esquerdo: menu de navegação com botões "Sobre", Buscar por: "Função" e "Dificuldade", "Ordenar Por" e "Mostrar todos".
-Na parte superior, logo do jogo, título, e botões interativos "Pesquisar por nome" e "Jogue agora!" com redirecionamento para o site de download do jogo.
+Na parte superior, logo do jogo, título, e botões interativos "Pesquisar por nome" e "Jogue agora!" com direcionamento para o site de download do jogo.
+
 <div align='center'>
 <img alt="Tela1" src="https://user-images.githubusercontent.com/30864314/218776209-61077be1-f98c-434f-acf3-fe6cbdf888d3.png"/>
 </div> 
  
-Tela 2: Página "Sobre" com informações e histórias do jogo. ao lado esquerdo foi desenvolvido um botão "Voltar" para que o usuário retorne à pagina principal.
+Tela 2: Página "Sobre" com informações do jogo e da interface. Ao lado esquerdo foi desenvolvido um botão "Voltar" para que o usuário retorne à pagina principal.
+
 <div align='center'>
 <img alt="Tela2" src="https://user-images.githubusercontent.com/30864314/218776664-a9481f1a-5f50-4994-8cbd-2eb207daad8d.png"/>
 </div> 
  
 Tela 3: Animação de flip criada para os todos cards mostrarem mais informações dos campeões na parte de trás. É mostrado informações de Ataque, Defesa, Magia e Dificuldade, ordenadas com uma escala de 0 a 10 do campeão.
+
 <div align='center'>
 <img alt="Tela3" src="https://user-images.githubusercontent.com/30864314/218809695-e47446dc-08e0-4d44-b1cd-e5843e3604aa.png"/>
 </div> 
