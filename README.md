@@ -30,10 +30,10 @@ Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laborato
 * [1. Resumo do projeto](#1-resumo-do-projeto)🗒️
 * [2. Protótipos](#2-prototipos)📽️
 * [3. Pesquisa de Campo](#3-pesquisa-de-campo)🖊️
-* [4. Histórias de Usuários](#3-historias-de-usuarios)📌
-* [5. Interface](#4-interface)💻
-* [6. Responsividade](#4-responsividade)📱
-* [7. Extra](#4-extra)⏭️
+* [4. Histórias de Usuários](#4-historias-de-usuarios)📌
+* [5. Interface](#5-interface)💻
+* [6. Responsividade](#6-responsividade)📱
+* [7. Cálculo agregado](#7-cálculo agregado)📈
 * [8. Checklists de Objetivos Alcançados](#8-checklist-de-objetivos-alcançados)🏆
 
 ***
