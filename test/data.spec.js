@@ -70,7 +70,7 @@ describe('ordenarCampeoes', () => {
   });
 });
 
-//testando função que verficiar a função dos campeões         
+//testando função que verifica a função dos campeões         
 describe('funcaoDosCampeoes', () => {
   it('deve ser uma função', () => {
     expect(typeof funcaoDosCampeoes).toBe("function");
@@ -87,29 +87,27 @@ describe('funcaoDosCampeoes', () => {
   });
 });
 
-//testando a função dificuldade dos campeões
+//testando função dificuldade dos campeões
 describe('dificuldadeCampeao', () => {
   it('deve ser uma função', () => {
     expect(typeof dificuldadeCampeao).toBe("function");
   });
 
   it('deve buscar por dificuldade baixa', () => {
-    const resultado = dificuldadeCampeao(testeCampeoes, 1);
+    const resultado = dificuldadeCampeao(testeCampeoes, '1');
     expect(resultado).toEqual([aatrox, leona]);
   })
 
   it('deve buscar por dificuldade média', () => {
-    const resultado = dificuldadeCampeao(testeCampeoes, 2);
+    const resultado = dificuldadeCampeao(testeCampeoes, '2');
     expect(resultado).toEqual([ahri]);
   })
 
   it('deve buscar por dificuldade alta', () => {
-    const resultado = dificuldadeCampeao(testeCampeoes, 3);
+    const resultado = dificuldadeCampeao(testeCampeoes, '3');
     expect(resultado).toEqual([zyra]);
   })
 });
-
-
 
 //testando o cálculo de porcentagem
 describe('porcentagemCampeoes', () => {
