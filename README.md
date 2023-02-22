@@ -33,8 +33,7 @@ Segundo projeto realizado para o Bootcamp da [Laboratória](https://www.laborato
 * [4. Histórias de Usuários](#4-historias-de-usuarios)📌
 * [5. Interface](#5-interface)💻
 * [6. Responsividade](#6-responsividade)📱
-* [7. Cálculo agregado](#7-cálculo agregado)📈
-* [8. Checklists de Objetivos Alcançados](#8-checklist-de-objetivos-alcançados)🏆
+* [7. Checklists de Objetivos Alcançados](#7-checklist-de-objetivos-alcançados)🏆
 
 ***
 ## 1. Resumo do projeto 🗒️
@@ -100,6 +99,13 @@ Tela 3: Animação de flip criada para os todos cards mostrarem mais informaçõ
 <div align='center'>
 <img alt="Tela3" src="https://user-images.githubusercontent.com/30864314/218809695-e47446dc-08e0-4d44-b1cd-e5843e3604aa.png"/>
 </div> 
+
+Tela 4: Desenvolveu-se um cálculo agregado na aplicação na qual o usuário visualiza a quantidade e a porcentagem de campeões que sua pesquisa corresponde. 
+Exemplo: usuário escolhe filtrar por função, e escolhe a opção: "Atiradores". Vai aparecer na tela o número total de campeões com aquela função, e a porcentagem como: "Campeões com essa função: 24. Ou seja: 17.91% do total."
+
+<div align='center'>
+<img src="https://user-images.githubusercontent.com/30864314/218814325-3d0c0212-0e3e-4b5b-8d19-bad84889eb7e.png"/>
+</div> 
  
 ***
 ## 6. Responsividade 📱
@@ -112,14 +118,6 @@ Tela 2: Foi desenvolvido um Side Bar na vertical, onde aparecem os botões de in
 
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/30864314/218777226-3bef45cd-9d46-4f3f-bcb5-18ca0d189e4c.png"/>
-</div> 
-
-***
-## 7. Extra ⏭️
-
-Desenvolveu-se um cálculo agregado na aplicação. Exemplo: usuário escolhe filtrar por função, e escolhe a opção: "Atiradores". Dessa forma, aparece na tela o número total de campeões com aquela função, e a porcentagem, como: "Campeões com essa função: 24. Ou seja: 17.91% do total."
-<div align='center'>
-<img src="https://user-images.githubusercontent.com/30864314/218814325-3d0c0212-0e3e-4b5b-8d19-bad84889eb7e.png"/>
 </div> 
 
 ***
